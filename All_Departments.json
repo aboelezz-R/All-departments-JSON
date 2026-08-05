@@ -9240,7 +9240,7 @@
         ]
       }
     ],
-    "ticket_types_count": 15,
+    "ticket_types_count": 13,
     "ticket_types": [
       {
         "name": "Amend Client's Payment status \\ type \\ calculated VAT",
@@ -9474,39 +9474,6 @@
         }
       },
       {
-        "name": "Doctors Termination Request",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "10d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "10d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "10d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "10d"
-          }
-        }
-      },
-      {
         "name": "Eligible client to switch to the Visa Only Package",
         "sla": {
           "low": {
@@ -9672,39 +9639,6 @@
             "max_hold_min": 240,
             "next_update_min": 120,
             "resolve_human": "15d"
-          }
-        }
-      },
-      {
-        "name": "Urgent visa",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
           }
         }
       }
