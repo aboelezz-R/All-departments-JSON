@@ -24774,31 +24774,234 @@
       },
       {
         "name": "Bad Trust Pilot Review",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          }
+        }
       },
       {
         "name": "Complaint from Facebook Group",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          }
+        }
       },
       {
         "name": "Complaint from Instagram",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          }
+        }
       },
       {
         "name": "Complaint from Reddit Group",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          }
+        }
       },
       {
         "name": "Complaint from WhatsApp group",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          }
+        }
       },
       {
         "name": "Complaint Received to Manager’s Phone",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          }
+        }
       },
       {
         "name": "Online Bad Mentions",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 2880,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          }
+        }
       }
     ]
   },
