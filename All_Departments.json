@@ -9240,38 +9240,38 @@
         ]
       }
     ],
-    "ticket_types_count": 13,
+    "ticket_types_count": 12,
     "ticket_types": [
       {
         "name": "Amend Client's Payment status \\ type \\ calculated VAT",
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -9280,31 +9280,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "3d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "3d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "3d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "3d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -9313,31 +9313,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -9346,31 +9346,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -9379,31 +9379,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -9412,31 +9412,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "10d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "10d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "10d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "10d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -9445,31 +9445,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "3d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "3d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "3d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "3d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -9478,31 +9478,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -9511,31 +9511,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -9544,101 +9544,76 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
-          }
-        }
-      },
-      {
-        "name": "Missing Salary Inquiry",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
+            "resolve_human": "1d"
           }
         }
       },
       {
         "name": "Peekaboo-MMR case",
-        "sla": {}
+        "sla": {
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 60,
+            "max_hold_min": 120,
+            "next_update_min": 120,
+            "resolve_human": "1h"
+          }
+        }
       },
       {
         "name": "Relative case",
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           }
         }
       }
@@ -12388,7 +12363,13 @@
       "name": "Razane Arnaout",
       "email": "razane.arnaout@maids.cc"
     },
-    "teams": [],
+    "teams": [
+      {
+        "team": "Medical cases - MV",
+        "supervisors": [],
+        "agents": []
+      }
+    ],
     "ticket_types_count": 3,
     "ticket_types": [
       {
@@ -12459,7 +12440,36 @@
       },
       {
         "name": "Undetermined",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 5760,
+            "max_hold_min": 4320,
+            "next_update_min": 1440,
+            "resolve_human": "4d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 5760,
+            "max_hold_min": 4320,
+            "next_update_min": 1440,
+            "resolve_human": "4d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 5760,
+            "max_hold_min": 4320,
+            "next_update_min": 1440,
+            "resolve_human": "4d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 5760,
+            "max_hold_min": 4320,
+            "next_update_min": 1440,
+            "resolve_human": "4d"
+          }
+        }
       }
     ]
   },
@@ -14023,11 +14033,69 @@
       },
       {
         "name": "Maid's status needs to be change",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 1440,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 1440,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 1440,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 1440,
+            "resolve_human": "5d"
+          }
+        }
       },
       {
         "name": "Peekaboo-MMR case",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 240,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 240,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 240,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 240,
+            "resolve_human": "7d"
+          }
+        }
       },
       {
         "name": "Visa renewal",
@@ -24669,69 +24737,36 @@
       "email": "razane.arnaout@maids.cc"
     },
     "teams": [],
-    "ticket_types_count": 10,
+    "ticket_types_count": 8,
     "ticket_types": [
-      {
-        "name": "Amend Client's Payment status \\ type \\ calculated VAT",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          }
-        }
-      },
       {
         "name": "Bad Google Review",
         "sla": {
           "low": {
             "assign_min": 30,
             "resolve_min": 10080,
-            "max_hold_min": 240,
+            "max_hold_min": 2880,
             "next_update_min": 30,
             "resolve_human": "7d"
           },
           "medium": {
             "assign_min": 30,
             "resolve_min": 10080,
-            "max_hold_min": 240,
+            "max_hold_min": 2880,
             "next_update_min": 30,
             "resolve_human": "7d"
           },
           "high": {
             "assign_min": 30,
             "resolve_min": 10080,
-            "max_hold_min": 240,
+            "max_hold_min": 2880,
             "next_update_min": 30,
             "resolve_human": "7d"
           },
           "urgent": {
             "assign_min": 30,
             "resolve_min": 10080,
-            "max_hold_min": 240,
+            "max_hold_min": 2880,
             "next_update_min": 30,
             "resolve_human": "7d"
           }
@@ -24762,39 +24797,6 @@
         "sla": {}
       },
       {
-        "name": "Missing Salary Inquiry",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          }
-        }
-      },
-      {
         "name": "Online Bad Mentions",
         "sla": {}
       }
@@ -24816,41 +24818,99 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
             "next_update_min": 30,
-            "resolve_human": "2d"
+            "resolve_human": "7d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
             "next_update_min": 30,
-            "resolve_human": "2d"
+            "resolve_human": "7d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
             "next_update_min": 30,
-            "resolve_human": "2d"
+            "resolve_human": "7d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
             "next_update_min": 30,
-            "resolve_human": "2d"
+            "resolve_human": "7d"
           }
         }
       },
       {
         "name": "Complaint from Instagram",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          }
+        }
       },
       {
         "name": "Complaint from WhatsApp group",
-        "sla": {}
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 120,
+            "next_update_min": 30,
+            "resolve_human": "7d"
+          }
+        }
       }
     ]
   },
@@ -25444,38 +25504,38 @@
         ]
       }
     ],
-    "ticket_types_count": 9,
+    "ticket_types_count": 6,
     "ticket_types": [
       {
         "name": "Amend Client's Payment status \\ type \\ calculated VAT",
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "7d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -25485,63 +25545,30 @@
           "low": {
             "assign_min": 30,
             "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120,
+            "max_hold_min": 60,
+            "next_update_min": 60,
             "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
             "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120,
+            "max_hold_min": 60,
+            "next_update_min": 60,
             "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
             "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120,
+            "max_hold_min": 60,
+            "next_update_min": 60,
             "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
             "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120,
+            "max_hold_min": 60,
+            "next_update_min": 60,
             "resolve_human": "1d"
-          }
-        }
-      },
-      {
-        "name": "Client wants to convert to the Visa Only Package",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
           }
         }
       },
@@ -25550,31 +25577,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -25583,31 +25610,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           }
         }
       },
@@ -25616,64 +25643,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_min": 1440,
+            "max_hold_min": 120,
+            "next_update_min": 60,
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_min": 1440,
+            "max_hold_min": 120,
+            "next_update_min": 60,
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_min": 1440,
+            "max_hold_min": 120,
+            "next_update_min": 60,
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          }
-        }
-      },
-      {
-        "name": "MV Split Payment Experiment",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_min": 1440,
+            "max_hold_min": 120,
+            "next_update_min": 60,
+            "resolve_human": "1d"
           }
         }
       },
@@ -25682,64 +25676,31 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
+            "resolve_human": "1d"
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 1440,
+            "max_hold_min": 120,
             "next_update_min": 120,
-            "resolve_human": "2d"
-          }
-        }
-      },
-      {
-        "name": "Visa Only Package to Visa Only Package Sale Follow Up",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "15d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "15d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "15d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 21600,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "15d"
+            "resolve_human": "1d"
           }
         }
       }
