@@ -1,0 +1,35 @@
+name: Update departments JSON
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # every 15 minutes
+  workflow_dispatch:          # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-json
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build JSON from database
+        run: node build-json.mjs
+
+      - name: Commit & push if changed
+        run: |
+          if [ -n "$(git status --porcelain All_Departments.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add All_Departments.json
+            git commit -m "Auto-update All_Departments.json"
+            git push
+            echo "Pushed updated JSON."
+          else
+            echo "No changes."
+          fi
