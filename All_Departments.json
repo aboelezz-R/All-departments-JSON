@@ -1380,20 +1380,6 @@
       {
         "name": "Luggage Checkup",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "1d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "1d"
-          },
           "high": {
             "assign_min": 30,
             "resolve_min": 1440,
@@ -1446,20 +1432,6 @@
       {
         "name": "Maid special filters",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "8h"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "8h"
-          },
           "high": {
             "assign_min": 30,
             "resolve_min": 480,
@@ -1545,20 +1517,6 @@
       {
         "name": "Maid's termination",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
           "high": {
             "assign_min": 30,
             "resolve_min": 10080,
