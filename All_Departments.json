@@ -1753,240 +1753,26 @@
       "name": "Nourhan Ayed",
       "email": "nourhan.ayed@maids.cc"
     },
-    "teams": [],
-    "ticket_types_count": 22,
+    "teams": [
+      {
+        "team": "PTC Team",
+        "supervisors": [
+          "sarah.farha@maids.cc"
+        ],
+        "agents": [
+          "malak.shaaban@maids.cc",
+          "sandi.chafi@maids.cc",
+          "malak.masri@maids.cc",
+          "sylvie.kaydabieh@maids.cc",
+          "ahmad.zoubiane@maids.cc",
+          "salma.ali@maids.cc",
+          "loucil.elmoussaoui@maids.cc",
+          "walaa.gamal@maids.cc"
+        ]
+      }
+    ],
+    "ticket_types_count": 11,
     "ticket_types": [
-      {
-        "name": "Amend Client's Payment status \\ type \\ calculated VAT",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          }
-        }
-      },
-      {
-        "name": "Call client",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          }
-        }
-      },
-      {
-        "name": "Client matching types",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          }
-        }
-      },
-      {
-        "name": "Complaint About Accommodation",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "8h"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "8h"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "8h"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "8h"
-          }
-        }
-      },
-      {
-        "name": "Conversion Salary Raises",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 43200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "30d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 43200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "30d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 43200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "30d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 43200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "30d"
-          }
-        }
-      },
-      {
-        "name": "Document required",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          }
-        }
-      },
-      {
-        "name": "EID and fingerprinting issues",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "5d"
-          }
-        }
-      },
       {
         "name": "Housemaid Arrival & Transportation Check-Ins",
         "sla": {
@@ -2017,39 +1803,6 @@
             "max_hold_min": 240,
             "next_update_min": 120,
             "resolve_human": "1d"
-          }
-        }
-      },
-      {
-        "name": "Logistics",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
           }
         }
       },
@@ -2351,72 +2104,6 @@
         }
       },
       {
-        "name": "New Service Inquiry",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "8h"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "8h"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "8h"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "8h"
-          }
-        }
-      },
-      {
-        "name": "Undetermined",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "2d"
-          }
-        }
-      },
-      {
         "name": "Unreachable Maid",
         "sla": {
           "low": {
@@ -2446,39 +2133,6 @@
             "max_hold_min": 240,
             "next_update_min": 120,
             "resolve_human": "10d"
-          }
-        }
-      },
-      {
-        "name": "Visa Inquiry",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120,
-            "resolve_human": "7d"
           }
         }
       }
