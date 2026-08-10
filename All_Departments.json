@@ -4110,7 +4110,15 @@
       "name": "Youssef Shalakamy",
       "email": null
     },
-    "teams": [],
+    "teams": [
+      {
+        "team": "CC Delighters Manager",
+        "supervisors": [
+          "youssef.shalakamy@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types_count": 14,
     "ticket_types": [
       {
@@ -6490,6 +6498,217 @@
             "max_hold_min": 240,
             "next_update_min": 120,
             "resolve_human": "5d"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "department": "CC Retractors Manager",
+    "owner_account": "Youssef Nader",
+    "owner_username": "youssef.nader",
+    "head": {
+      "name": "Youssef Nader",
+      "email": "youssef.nader@maids.cc"
+    },
+    "teams": [],
+    "ticket_types_count": 6,
+    "ticket_types": [
+      {
+        "name": "Conversion Salary Raises",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 43200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "30d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 43200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "30d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 43200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "30d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 43200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "30d"
+          }
+        }
+      },
+      {
+        "name": "Live-out transportation issues",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Maid related question",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Renewal/Resignation Salary Raise",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 64800,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "45d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 64800,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "45d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 64800,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "45d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 64800,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "45d"
+          }
+        }
+      },
+      {
+        "name": "Satwa Relocation",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          }
+        }
+      },
+      {
+        "name": "Undetermined",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
           }
         }
       }
@@ -8894,6 +9113,250 @@
     ]
   },
   {
+    "department": "Customer Success Advisors Manager",
+    "owner_account": "Lilas Ismail",
+    "owner_username": "lilas.ismail",
+    "head": {
+      "name": "Lilas Ismail",
+      "email": "lilas.ismail@maids.cc"
+    },
+    "teams": [],
+    "ticket_types_count": 7,
+    "ticket_types": [
+      {
+        "name": "Client matching types",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Cook Offering",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Follow up for medical appointment",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid Refused To Join",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Maid related question",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Mediator Offering",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Trainer Offering",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      }
+    ]
+  },
+  {
     "department": "DDC Supervisor",
     "owner_account": "Diana",
     "owner_username": "diana",
@@ -9735,8 +10198,8 @@
     "owner_account": "Kawthar Hamadeh",
     "owner_username": "kawthar.hamadeh",
     "head": {
-      "name": "Kebire Mohammed",
-      "email": "kawthar.hamadeh@maids.cc, riwa.hamade@maids.cc, yousif.abotaam@maids.cc, kebire@maids.cc, reemabifakhreddine@maids.cc"
+      "name": "Yousif Abutaam",
+      "email": "yousif.abutaam@maids.cc"
     },
     "teams": [],
     "ticket_types_count": 4,
@@ -9873,8 +10336,8 @@
     "owner_account": "Kawthar Hamadeh",
     "owner_username": "kawthar.hamadeh",
     "head": {
-      "name": "Kawthar Hamadeh",
-      "email": "kawthar.hamadeh@maids.cc, riwa.hamade@maids.cc, yousif.abotaam@maids.cc, kebire@maids.cc, reemabifakhreddine@maids.cc"
+      "name": "Yousif Abutaam",
+      "email": "yousif.abutaam@maids.cc"
     },
     "teams": [
       {
@@ -10035,8 +10498,702 @@
         "agents": []
       }
     ],
-    "ticket_types_count": 0,
-    "ticket_types": []
+    "ticket_types_count": 21,
+    "ticket_types": [
+      {
+        "name": "Amend Client's Payment status \\ type \\ calculated VAT",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          }
+        }
+      },
+      {
+        "name": "Bot-to-Bot Messaging",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Call client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Client wants free replacement when current maid goes on vacation",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Discount for Travelling",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Doctors Termination Request",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          }
+        }
+      },
+      {
+        "name": "Frozen contract",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          }
+        }
+      },
+      {
+        "name": "Intro Call",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Listener Session",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Maid does not want to work with client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid ran away",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid related question",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid's quality",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Pre-confirmation Dispute",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Service Not Needed Anymore",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Taxi canceled",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Travel assist",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 64800,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "45d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 64800,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "45d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 64800,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "45d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 64800,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "45d"
+          }
+        }
+      },
+      {
+        "name": "Unassigned client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Undetermined",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Vacation Policy",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Visa renewal",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      }
+    ]
   },
   {
     "department": "In Accommodation Maid Delivery to/from Client",
@@ -10673,7 +11830,10 @@
         "supervisors": [
           "georgina.wakim@maids.cc",
           "soha.salem@maids.cc",
-          "aleen.fayad@maids.cc"
+          "aleen.fayad@maids.cc",
+          "esraa.hassan@maids.cc",
+          "anas.jamaleddine@maids.cc",
+          "salma.sobhy@maids.cc"
         ],
         "agents": []
       }
@@ -23465,8 +24625,1329 @@
         "agents": []
       }
     ],
-    "ticket_types_count": 0,
-    "ticket_types": []
+    "ticket_types_count": 40,
+    "ticket_types": [
+      {
+        "name": "Amend Client's Payment status \\ type \\ calculated VAT",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          }
+        }
+      },
+      {
+        "name": "Bad Google Review",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 21600,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "15d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 21600,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "15d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 21600,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "15d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 21600,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "15d"
+          }
+        }
+      },
+      {
+        "name": "Blocked Client Signing A New Contract",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Bot-to-Bot Messaging",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Call client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Card Refund Request",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Client is leaving the country",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          }
+        }
+      },
+      {
+        "name": "Client isn't paying",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Client matching types",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Client wants free replacement when current maid goes on vacation",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Client wants to convert to the Visa Only Package",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          }
+        }
+      },
+      {
+        "name": "Direct Debit related issue",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Eligible client to switch to the Visa Only Package",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          }
+        }
+      },
+      {
+        "name": "Finalizing Client Shortlis",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Frozen contract",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          }
+        }
+      },
+      {
+        "name": "Intro Call",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Legal Threat",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Listener Session",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Maid Complaint about Client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Maid does not want to work with client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid doesn't want to work with the client anymore",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Maid is sick or injured",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid Liaison Request",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid ran away",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid related question",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid stole from or hurt client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid Wants To Resign",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Maid's quality",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Money Disputes",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Possible Theft Case",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          }
+        }
+      },
+      {
+        "name": "Pre-confirmation Dispute",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Refusal to Work (RTW)",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Service Not Needed Anymore",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Taxi canceled",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Trainer Offering",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Unassigned client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Undetermined",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Unreachable Maid",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          }
+        }
+      },
+      {
+        "name": "Vacation Policy",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Visa request",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          }
+        }
+      }
+    ]
   },
   {
     "department": "RBs Live out Manager",
@@ -24937,6 +27418,11 @@
           "tala.shafee@maids.cc",
           "haya.ojjeh@maids.cc"
         ]
+      },
+      {
+        "team": "Online Bad Mentions",
+        "supervisors": [],
+        "agents": []
       }
     ],
     "ticket_types_count": 10,
@@ -25291,8 +27777,1230 @@
         "agents": []
       }
     ],
-    "ticket_types_count": 0,
-    "ticket_types": []
+    "ticket_types_count": 37,
+    "ticket_types": [
+      {
+        "name": "Amend Client's Payment status \\ type \\ calculated VAT",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          }
+        }
+      },
+      {
+        "name": "Call client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Client isn't paying",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Client matching types",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Client wants to convert to the Visa Only Package",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          }
+        }
+      },
+      {
+        "name": "Complaint from Reddit Group",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          }
+        }
+      },
+      {
+        "name": "Contract amendments",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 21600,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "15d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 21600,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "15d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 21600,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "15d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 21600,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "15d"
+          }
+        }
+      },
+      {
+        "name": "Direct Debit related issue",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Discount for Travelling",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Document required",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Frozen contract",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "10d"
+          }
+        }
+      },
+      {
+        "name": "Housemaid Arrival & Transportation Check-Ins",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Intro Call",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Legal Threat",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Maid claiming With Client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Maid does not want to work with client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid doesn't want to work with the client anymore",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Maid is not at the accommodation",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Maid is sick or injured",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid Refused To Join",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Maid related question",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid stole from or hurt client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Maid Wants To Resign",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Maid's quality",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Mediator Offering",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Missing Salary Inquiry",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          }
+        }
+      },
+      {
+        "name": "Money Disputes",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Original Maid Came Back From Vacation",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Pre-confirmation Dispute",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Refused to join due to MT - Baby under 2",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "8h"
+          }
+        }
+      },
+      {
+        "name": "Request bank details & Refund",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 4320,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "3d"
+          }
+        }
+      },
+      {
+        "name": "Service Not Needed Anymore",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      },
+      {
+        "name": "Switch Maid To Live-in",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 10080,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "7d"
+          }
+        }
+      },
+      {
+        "name": "Trainer Offering",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Unassigned client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "1d"
+          }
+        }
+      },
+      {
+        "name": "Undetermined",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "2d"
+          }
+        }
+      },
+      {
+        "name": "Visa renewal",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 7200,
+            "max_hold_min": 240,
+            "next_update_min": 120,
+            "resolve_human": "5d"
+          }
+        }
+      }
+    ]
   },
   {
     "department": "Switch to MV",
