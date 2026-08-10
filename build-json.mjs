@@ -32,9 +32,9 @@ for (const t of teams) (teamsByDept[t.department_id] ??= []).push(t);
 const memByTeam = {};
 for (const m of members) (memByTeam[m.team_id] ??= []).push(m);
 
-const all = [];
+// Output: one object keyed by department name; each holds only its teams and its types+SLA.
+const out = {};
 for (const d of depts) {
-  const owner = d.profiles?.username ?? null;
   const teamArr = (teamsByDept[d.id] || []).map(t => {
     const mem = memByTeam[t.id] || [];
     return {
@@ -56,16 +56,8 @@ for (const d of depts) {
     }
     return { name: ty.name, sla };
   });
-  all.push({
-    department: d.name,
-    owner_account: disp(owner),
-    owner_username: owner,
-    head: { name: d.head_name, email: d.head_email },
-    teams: teamArr,
-    ticket_types_count: typeArr.length,
-    ticket_types: typeArr,
-  });
+  out[d.name] = { teams: teamArr, ticket_types: typeArr };
 }
 
-writeFileSync('All_Departments.json', JSON.stringify(all, null, 2) + '\n');
-console.log(`departments: ${all.length}`);
+writeFileSync('All_Departments.json', JSON.stringify(out, null, 2) + '\n');
+console.log(`departments: ${Object.keys(out).length}`);
