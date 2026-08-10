@@ -5107,7 +5107,10 @@
       {
         "team": "CC Resolvers - 1",
         "supervisors": [],
-        "agents": []
+        "agents": [
+          "haifaa.mouallem@maids.cc",
+          "abdalrahman.hakim@maids.cc"
+        ]
       }
     ],
     "ticket_types_count": 49,
@@ -10664,7 +10667,17 @@
       "name": "Youssef Shalakamy",
       "email": null
     },
-    "teams": [],
+    "teams": [
+      {
+        "team": "L1 sup1",
+        "supervisors": [
+          "georgina.wakim@maids.cc",
+          "soha.salem@maids.cc",
+          "aleen.fayad@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types_count": 29,
     "ticket_types": [
       {
@@ -11670,14 +11683,6 @@
           "marina.alaissamy@maids.cc",
           "ramaj.raed@maids.cc"
         ]
-      },
-      {
-        "team": "SPV Live-out",
-        "supervisors": [
-          "lucciana.yazbeck@maids.cc",
-          "moona.gamelmaz@maids.cc"
-        ],
-        "agents": []
       }
     ],
     "ticket_types_count": 44,
@@ -25267,6 +25272,27 @@
         }
       }
     ]
+  },
+  {
+    "department": "SPV Live-out",
+    "owner_account": "Ahmed Elkady",
+    "owner_username": "ahmed.elkady",
+    "head": {
+      "name": "Ahmed Elkady",
+      "email": "ahmed.elkady@maids.cc"
+    },
+    "teams": [
+      {
+        "team": "Supervisors",
+        "supervisors": [
+          "lucciana.yazbeck@maids.cc",
+          "moona.gamelmaz@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
+    "ticket_types_count": 0,
+    "ticket_types": []
   },
   {
     "department": "Switch to MV",
