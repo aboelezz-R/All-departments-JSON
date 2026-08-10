@@ -51,7 +51,6 @@ for (const d of depts) {
       if (row) sla[p] = {
         assign_min: row.assign_min, resolve_min: row.resolve_min,
         max_hold_min: row.max_hold_min, next_update_min: row.next_update_min,
-        resolve_human: human(row.resolve_min),
       };
     }
     return { name: ty.name, sla };
