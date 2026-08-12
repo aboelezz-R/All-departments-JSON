@@ -23,9 +23,9 @@ function human(m) {
   return h === 0 ? `${d}d` : `${d}d ${h}h`;
 }
 
-const teams   = await get('teams?select=id,name,department_id&limit=1000');
+const teams   = await get('teams?select=id,name,code,department_id&limit=1000');
 const members = await get('team_members?select=team_id,name,role&limit=1000');
-const depts   = await get('departments?select=id,name,head_name,head_email,profiles(username)&order=name&limit=1000');
+const depts   = await get('departments?select=id,name,code,head_name,head_email,profiles(username)&order=name&limit=1000');
 
 const teamsByDept = {};
 for (const t of teams) (teamsByDept[t.department_id] ??= []).push(t);
@@ -39,11 +39,12 @@ for (const d of depts) {
     const mem = memByTeam[t.id] || [];
     return {
       team: t.name,
+      code: t.code ?? null,
       supervisors: mem.filter(x => x.role === 'supervisor').map(x => x.name),
       agents: mem.filter(x => x.role === 'agent').map(x => x.name),
     };
   });
-  const types = await get(`ticket_types?department_id=eq.${d.id}&is_active=eq.true&select=name,ticket_slas(priority,assign_min,resolve_min,max_hold_min,next_update_min)&order=name`);
+  const types = await get(`ticket_types?department_id=eq.${d.id}&is_active=eq.true&select=name,code,ticket_slas(priority,assign_min,resolve_min,max_hold_min,next_update_min)&order=name`);
   const typeArr = types.map(ty => {
     const sla = {};
     for (const p of ['low', 'medium', 'high', 'urgent']) {
@@ -53,9 +54,9 @@ for (const d of depts) {
         max_hold_min: row.max_hold_min, next_update_min: row.next_update_min,
       };
     }
-    return { name: ty.name, sla };
+    return { name: ty.name, code: ty.code ?? null, sla };
   });
-  out[d.name] = { teams: teamArr, ticket_types: typeArr };
+  out[d.name] = { code: d.code ?? null, teams: teamArr, ticket_types: typeArr };
 }
 
 writeFileSync('All_Departments.json', JSON.stringify(out, null, 2) + '\n');
