@@ -1,6 +1,7 @@
 {
   "Accommodation Manager": {
     "code": "Accommodation_manager_1664961704943",
+    "head_email": "jessica@maids.cc",
     "teams": [
       {
         "team": "Accommodation manager",
@@ -346,6 +347,7 @@
   },
   "Accommodation MV Retractor & Maids Recruiter": {
     "code": "Accommodation_MV_Retractor_&_Maids_Recruiter_1738152839437",
+    "head_email": "georgio@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -1042,6 +1044,7 @@
   },
   "accommodation supervisor": {
     "code": "accommodation_supervisor_1666694339502",
+    "head_email": "mona.dennawi@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -1474,6 +1477,7 @@
   },
   "AE Cleaners": {
     "code": "AE_Cleaners_1765269220179",
+    "head_email": "nourhan.ayed@maids.cc",
     "teams": [
       {
         "team": "PTC Team",
@@ -1828,6 +1832,7 @@
   },
   "AE_Recruiter": {
     "code": "AE_Recruiter_1769612055178",
+    "head_email": "peter.gemayel@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -1864,6 +1869,7 @@
   },
   "CC Bot To Bot Messaging": {
     "code": "CC_Bot_To_Bot_Messaging__1769531609160",
+    "head_email": "mustafa.mohamed@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -1900,6 +1906,7 @@
   },
   "CC Clients Retractor": {
     "code": "CC_Clients_Retractor_1771926633827",
+    "head_email": "manouella.helou@maids.cc",
     "teams": [
       {
         "team": "CC Clients Retractor",
@@ -2167,6 +2174,7 @@
   },
   "CC Delighters Supervisors": {
     "code": "Delighter_Supervisor_1660132696392",
+    "head_email": "youssef.shalakamy@maids.cc",
     "teams": [
       {
         "team": "CC Delighter Supervisors",
@@ -3595,6 +3603,7 @@
   },
   "CC Delighters' Manager - Do Not Transfer": {
     "code": "Delighters'_Supervisor_1624527270587",
+    "head_email": "youssef.shalakamy@maids.cc",
     "teams": [
       {
         "team": "CC Delighters' Manager",
@@ -4030,6 +4039,7 @@
   },
   "CC live out maids": {
     "code": "AE_Maids_1690980721711",
+    "head_email": "youssef.nader@maids.cc",
     "teams": [
       {
         "team": "Office Staff",
@@ -4497,6 +4507,7 @@
   },
   "CC Resolvers": {
     "code": null,
+    "head_email": "youssef.shalakamy@maids.cc",
     "teams": [
       {
         "team": "CC Resolvers - 1",
@@ -5455,6 +5466,7 @@
   },
   "CC Retractor": {
     "code": "Assistant_Manager_1742217618850",
+    "head_email": "youssef.nader@maids.cc",
     "teams": [
       {
         "team": "Retractor",
@@ -5794,6 +5806,7 @@
   },
   "CC Retractors Manager": {
     "code": "CC_Retractors_Manager_1784731965106",
+    "head_email": "youssef.nader@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -5980,6 +5993,7 @@
   },
   "Center Receptionists": {
     "code": "Receptionists_1648112678807",
+    "head_email": "dani.sabek@maids.cc",
     "teams": [
       {
         "team": "Center Receptionist",
@@ -6053,6 +6067,7 @@
   },
   "Center Supervisors": {
     "code": "Center_Supervisors_1762510546367",
+    "head_email": "dani.sabek@maids.cc",
     "teams": [
       {
         "team": "Typing Center Supervisors",
@@ -6082,6 +6097,7 @@
   },
   "Coaches": {
     "code": "Retractor_1714080955734",
+    "head_email": "odai.khalil@maids.cc",
     "teams": [
       {
         "team": "Coaches assistants",
@@ -6968,6 +6984,7 @@
   },
   "Collections": {
     "code": "COMP_COLLECTIONS_01",
+    "head_email": "anthony.fares@maids.cc",
     "teams": [
       {
         "team": "Collections",
@@ -7437,6 +7454,7 @@
   },
   "Customer Success Advisor": {
     "code": null,
+    "head_email": "lilas.ismail@maids.cc",
     "teams": [
       {
         "team": "Customer Success Advisor5 - Sally Hussien",
@@ -8152,6 +8170,7 @@
   },
   "Customer Success Advisors Manager": {
     "code": "Mediator_1703667418054",
+    "head_email": "lilas.ismail@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -8368,6 +8387,7 @@
   },
   "DDC Supervisor": {
     "code": "DDC_Supervisor_1774879369827",
+    "head_email": "diana@maids.cc",
     "teams": [
       {
         "team": "DDC Supervisors",
@@ -8726,6 +8746,7 @@
   },
   "DuPay complaints": {
     "code": "_du_Pay_complaints_1780405420489",
+    "head_email": "anthony.fares@maids.cc",
     "teams": [
       {
         "team": "DuPay complaints",
@@ -8953,6 +8974,7 @@
   },
   "Emotional support team": {
     "code": "Emotional_support_team_1686136237413",
+    "head_email": "asmaa.ibrahim@maids.cc",
     "teams": [
       {
         "team": "Emotional support team",
@@ -9118,6 +9140,7 @@
   },
   "Ethiopian & Kenyan Recruitment Operations": {
     "code": null,
+    "head_email": "yousif.abutaam@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -9238,6 +9261,7 @@
   },
   "Filipina Recruitment Operations": {
     "code": "hustlers_1638367998408",
+    "head_email": "yousif.abutaam@maids.cc",
     "teams": [
       {
         "team": "Hustler's Team",
@@ -9374,6 +9398,7 @@
   },
   "Frozen Clients - Live In": {
     "code": "Frozen_Clients_-_Live_in_1775557066652",
+    "head_email": "manaleham@maids.cc",
     "teams": [
       {
         "team": "Frozen Clients Live In",
@@ -10024,6 +10049,7 @@
   },
   "In Accommodation Maid Delivery to/from Client": {
     "code": "Accommodation_Guard_1731147984518",
+    "head_email": "jessica@maids.cc",
     "teams": [
       {
         "team": "Accommodation Reception",
@@ -10585,6 +10611,7 @@
   },
   "L1 Sups": {
     "code": "L1_sups_1778661551793",
+    "head_email": "youssef.shalakamy@maids.cc",
     "teams": [
       {
         "team": "L1 sup1",
@@ -11475,6 +11502,7 @@
   },
   "L2 Live Out Callers": {
     "code": "RB_LO_1_1736080012846",
+    "head_email": "ahmed.elkady@maids.cc",
     "teams": [
       {
         "team": "L2 Live Out Callers",
@@ -12049,6 +12077,7 @@
   },
   "Legal Team": {
     "code": "Legal_Team_1667822834404",
+    "head_email": "simon@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -12595,6 +12624,7 @@
   },
   "Logistics": {
     "code": "Logistics__1761682509649",
+    "head_email": "charbel.daou@maids.cc, eddy.elia@maids.cc",
     "teams": [
       {
         "team": "Taxi Logistics",
@@ -12762,6 +12792,7 @@
   },
   "Maid Liaison": {
     "code": "Maid_Liaison_1753164096072",
+    "head_email": "mustafa.mohamed@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -12798,6 +12829,7 @@
   },
   "Medical cases - MV": {
     "code": "Medical_cases_-_MV__1783957292114",
+    "head_email": "razane.arnaout@maids.cc",
     "teams": [
       {
         "team": "Medical cases - MV",
@@ -12906,6 +12938,7 @@
   },
   "Medical Consultant": {
     "code": "Medical_Consultant_1742225049177",
+    "head_email": "asmaa.ibrahim@maids.cc",
     "teams": [
       {
         "team": "Medical Consultant",
@@ -13042,6 +13075,7 @@
   },
   "Medical Team": {
     "code": "Medical_team_1634464816143",
+    "head_email": "youssef.shalakamy@maids.cc",
     "teams": [
       {
         "team": "Doctors Team",
@@ -13329,6 +13363,7 @@
   },
   "Medical Team Manager": {
     "code": "Medical_Team_Manager_1738046812648",
+    "head_email": "youssef.shalakamy@maids.cc",
     "teams": [
       {
         "team": "Doctor Supervisor",
@@ -13644,6 +13679,7 @@
   },
   "MMR": {
     "code": "MMR__1776678778166",
+    "head_email": "georgio@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -14130,6 +14166,7 @@
   },
   "MV Data Corrections": {
     "code": "Data_Corrections_1775033045817",
+    "head_email": "razane.arnaout@maids.cc",
     "teams": [
       {
         "team": "MV Data Corrections",
@@ -14505,6 +14542,7 @@
   },
   "MV Resolvers - L2": {
     "code": "MV_Resolvers_L2__1781854039996",
+    "head_email": "razane.arnaout@maids.cc",
     "teams": [
       {
         "team": "MV Resolvers",
@@ -15971,6 +16009,7 @@
   },
   "MV Resolvers L1": {
     "code": "MV_Resolvers_L1_1781854029518",
+    "head_email": "abanoub.labib@maids.cc",
     "teams": [
       {
         "team": "Farida",
@@ -17881,6 +17920,7 @@
   },
   "Notifiers": {
     "code": "Notifiers_1689087868598",
+    "head_email": "toufic.almabsout@maids.cc",
     "teams": [
       {
         "team": "Notifiers Agents",
@@ -17926,6 +17966,7 @@
   },
   "Nurses": {
     "code": "Nurses_1731670051119",
+    "head_email": "jessica@maids.cc",
     "teams": [
       {
         "team": "Nurse Assistants",
@@ -18033,6 +18074,7 @@
   },
   "Off-boarding Expert": {
     "code": "Cancellations_Clerk_1696422964419",
+    "head_email": "simon@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -19059,6 +19101,7 @@
   },
   "Payroll": {
     "code": "Payroll_&_Pnls_manager_1666437528196",
+    "head_email": "anthony.fares@maids.cc",
     "teams": [
       {
         "team": "Payroll",
@@ -19588,6 +19631,7 @@
   },
   "PRO / Government Advisors": {
     "code": "PRO_1686060418886",
+    "head_email": "raidmasri@maids.cc",
     "teams": [
       {
         "team": "PRO / Government Advisory department",
@@ -19755,6 +19799,7 @@
   },
   "PRObyChat": {
     "code": "PRObyChat_1762501378877",
+    "head_email": "ghenwa@maids.cc",
     "teams": [
       {
         "team": "CV/OEC/OWWA",
@@ -21076,6 +21121,7 @@
   },
   "PRObyChat CS": {
     "code": "PRObyChat_CS_1765797050817",
+    "head_email": "peter.mansour@maids.cc",
     "teams": [
       {
         "team": "PRObyChat CS",
@@ -22151,6 +22197,7 @@
   },
   "RB SUPs": {
     "code": null,
+    "head_email": "manaleham@maids.cc",
     "teams": [
       {
         "team": "RB SUP1",
@@ -23378,6 +23425,7 @@
   },
   "RBs Live out Manager": {
     "code": "MV_7-day_Trial_Package_1763052901377",
+    "head_email": "ahmed.elkady@maids.cc",
     "teams": [
       {
         "team": "L2 live out operations manager",
@@ -23424,6 +23472,7 @@
   },
   "Refunds": {
     "code": "Refunds_1773157619032",
+    "head_email": "anthony.fares@maids.cc",
     "teams": [
       {
         "team": "Refunds",
@@ -23561,6 +23610,7 @@
   },
   "Relationship Builders - L0": {
     "code": "Rb_L2_Callers_1778069513055",
+    "head_email": "manaleham@maids.cc",
     "teams": [
       {
         "team": "Group1",
@@ -23707,6 +23757,7 @@
   },
   "Relationship Builders - L2": {
     "code": "Relationship_Builders_1621521150358",
+    "head_email": "manaleham@maids.cc",
     "teams": [
       {
         "team": "RB2",
@@ -23822,6 +23873,7 @@
   },
   "Risk and Legal Operations Department": {
     "code": "Risk_and_Legal_Operations_Department_1734076461491",
+    "head_email": "simon@maids.cc",
     "teams": [
       {
         "team": "Agents",
@@ -24465,6 +24517,7 @@
   },
   "Sales Coaches": {
     "code": "Reporting_-_DO_NOT_TRANSFER_-_Sales_Supervisors_Call_1703862044934",
+    "head_email": "diana@maids.cc",
     "teams": [
       {
         "team": "Sales Coaches",
@@ -24695,6 +24748,7 @@
   },
   "Social Listening": {
     "code": "Social_Listening_1732872064034",
+    "head_email": "leen.jamil@maids.cc",
     "teams": [
       {
         "team": "Social Listening",
@@ -25018,6 +25072,7 @@
   },
   "SPV Live-out": {
     "code": "Live-out_Exceptions_1726212189993",
+    "head_email": "ahmed.elkady@maids.cc",
     "teams": [
       {
         "team": "Supervisors",
@@ -26144,6 +26199,7 @@
   },
   "Switch to MV": {
     "code": "Confirmed_switching_-_Do_not_transfer_1702025111569",
+    "head_email": "nael.haidar@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -26420,6 +26476,7 @@
   },
   "The MOP - CC Client": {
     "code": "The_MOP_-_CC_1744008246082",
+    "head_email": "nael.haidar@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -26726,6 +26783,7 @@
   },
   "The MOP - MV": {
     "code": "The_MOP_1730448217795",
+    "head_email": "razane.arnaout@maids.cc",
     "teams": [
       {
         "team": "The MOP - MV",
@@ -26983,6 +27041,7 @@
   },
   "The MOP - MV Maid": {
     "code": "The_MOP_-_MV_Maid_1776852947825",
+    "head_email": "razane.arnaout@maids.cc",
     "teams": [
       {
         "team": "The MOP - MV Maid",
@@ -27091,6 +27150,7 @@
   },
   "The MOP - Part-time Cleaners": {
     "code": "The_MOP_-_Part-time_Cleaners_1767105998783",
+    "head_email": "abdelrahman.hakmi@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -27247,6 +27307,7 @@
   },
   "The MOP - Sales": {
     "code": "The_MOP_-_Sales_1777469657528",
+    "head_email": "leen.jamil@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -27373,6 +27434,7 @@
   },
   "Trainers": {
     "code": null,
+    "head_email": "nael.haidar@maids.cc",
     "teams": [],
     "ticket_types": [
       {
@@ -27529,6 +27591,7 @@
   },
   "Transportation": {
     "code": null,
+    "head_email": "youssef.nader@maids.cc",
     "teams": [
       {
         "team": "TE matcher",
@@ -27774,6 +27837,7 @@
   },
   "Travel Assist": {
     "code": "Travel_Assistance_Manager_1654943235692",
+    "head_email": "peter.mansour@maids.cc",
     "teams": [
       {
         "team": "Travel Assist Team",
@@ -28037,6 +28101,7 @@
   },
   "Validators And DDC": {
     "code": "VOICE_RESOLVER",
+    "head_email": "diana@maids.cc",
     "teams": [
       {
         "team": "DDC Agents",
@@ -28238,6 +28303,7 @@
   },
   "Visa - Dubai - OPS Logistics": {
     "code": "Visa-Dubai_1639241522752",
+    "head_email": "omair@maids.cc",
     "teams": [
       {
         "team": "Visa Dubai OPS",
@@ -28832,6 +28898,7 @@
   },
   "Visa team": {
     "code": null,
+    "head_email": "medhat.nawfal@maids.cc",
     "teams": [
       {
         "team": "Visa Team - EID + Medical",

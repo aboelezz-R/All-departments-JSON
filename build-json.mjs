@@ -56,7 +56,7 @@ for (const d of depts) {
     }
     return { name: ty.name, code: ty.code ?? null, sla };
   });
-  out[d.name] = { code: d.code ?? null, teams: teamArr, ticket_types: typeArr };
+  out[d.name] = { code: d.code ?? null, head_email: d.head_email ?? null, teams: teamArr, ticket_types: typeArr };
 }
 
 writeFileSync('All_Departments.json', JSON.stringify(out, null, 2) + '\n');
