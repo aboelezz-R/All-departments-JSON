@@ -3463,7 +3463,15 @@
     ]
   },
   "CC Delighters' Manager - Do Not Transfer": {
-    "teams": [],
+    "teams": [
+      {
+        "team": "CC Delighters' Manager",
+        "supervisors": [
+          "youssef.shalakamy@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Ban/Active Visa Cancellation",
