@@ -1870,7 +1870,16 @@
   "CC Bot To Bot Messaging": {
     "code": "CC_Bot_To_Bot_Messaging__1769531609160",
     "head_email": "mustafa.mohamed@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "CC Bot To Bot Messaging",
+        "code": null,
+        "supervisors": [
+          "mustafa.mohamed@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Bot-to-Bot Messaging",
@@ -5807,7 +5816,16 @@
   "CC Retractors Manager": {
     "code": "CC_Retractors_Manager_1784731965106",
     "head_email": "youssef.nader@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "CC Retractors Manager",
+        "code": null,
+        "supervisors": [
+          "youssef.nader@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Conversion Salary Raises",
@@ -8171,7 +8189,16 @@
   "Customer Success Advisors Manager": {
     "code": "Mediator_1703667418054",
     "head_email": "lilas.ismail@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "Customer Success Advisors Manager",
+        "code": null,
+        "supervisors": [
+          "lilas.ismail@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Client matching types",
@@ -12793,7 +12820,16 @@
   "Maid Liaison": {
     "code": "Maid_Liaison_1753164096072",
     "head_email": "mustafa.mohamed@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "Maid Liaison",
+        "code": null,
+        "supervisors": [
+          "mustafa.mohamed@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Maid Liaison Request",
@@ -27151,7 +27187,16 @@
   "The MOP - Part-time Cleaners": {
     "code": "The_MOP_-_Part-time_Cleaners_1767105998783",
     "head_email": "abdelrahman.hakmi@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "The MOP - Part-time Cleaners",
+        "code": null,
+        "supervisors": [
+          "abdelrahman.hakmi@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Bad Google Review",
