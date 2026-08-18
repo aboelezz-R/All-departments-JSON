@@ -27377,7 +27377,16 @@
   "The MOP - Sales": {
     "code": "The_MOP_-_Sales_1777469657528",
     "head_email": "leen.jamil@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "The MOP - Sales",
+        "code": null,
+        "supervisors": [
+          "leen.jamil@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Bad Google Review",
