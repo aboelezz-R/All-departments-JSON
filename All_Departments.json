@@ -12105,7 +12105,16 @@
   "Legal Team": {
     "code": "Legal_Team_1667822834404",
     "head_email": "simon@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "Legal",
+        "code": null,
+        "supervisors": [],
+        "agents": [
+          "tarek.alshalabi@maids.cc"
+        ]
+      }
+    ],
     "ticket_types": [
       {
         "name": "Amend Client's Payment status \\ type \\ calculated VAT",
@@ -18111,7 +18120,18 @@
   "Off-boarding Expert": {
     "code": "Cancellations_Clerk_1696422964419",
     "head_email": "simon@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "Offboarding",
+        "code": null,
+        "supervisors": [],
+        "agents": [
+          "abdullah.zaich@maids.cc",
+          "mouaz.alkhayat@maids.cc",
+          "mohammadhammoudi@maids.cc"
+        ]
+      }
+    ],
     "ticket_types": [
       {
         "name": "Call client",
@@ -23915,7 +23935,11 @@
         "team": "Agents",
         "code": null,
         "supervisors": [],
-        "agents": []
+        "agents": [
+          "tarek.alshalabi@maids.cc",
+          "yara.hassan@maids.cc",
+          "anie.toledo@maids.cc"
+        ]
       }
     ],
     "ticket_types": [
