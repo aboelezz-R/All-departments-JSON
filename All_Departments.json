@@ -348,7 +348,16 @@
   "Accommodation MV Retractor & Maids Recruiter": {
     "code": "Accommodation_MV_Retractor_&_Maids_Recruiter_1738152839437",
     "head_email": "georgio@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "Visa Retractor",
+        "code": null,
+        "supervisors": [
+          "ammar.ibraheem@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Client isn't paying",
@@ -9168,7 +9177,16 @@
   "Ethiopian & Kenyan Recruitment Operations": {
     "code": null,
     "head_email": "yousif.abutaam@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "Ethiopian & Kenyan Recruitment Operations",
+        "code": null,
+        "supervisors": [
+          "kebire@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Document required",
