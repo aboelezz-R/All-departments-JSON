@@ -9184,7 +9184,9 @@
         "supervisors": [
           "kebire@maids.cc"
         ],
-        "agents": []
+        "agents": [
+          "haidar.saghir@maids.cc"
+        ]
       }
     ],
     "ticket_types": [
