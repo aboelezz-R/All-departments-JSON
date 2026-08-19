@@ -8204,6 +8204,177 @@
       }
     ]
   },
+  "Customer Success Advisors": {
+    "code": null,
+    "head_email": "lilas.ismail@maids.cc",
+    "teams": [
+      {
+        "team": "CSA",
+        "code": null,
+        "supervisors": [],
+        "agents": [
+          "zeinab.zaineh@maids.cc",
+          "aya.zoughaibe@maids.cc",
+          "sally.hussien@maids.cc",
+          "merry.mallouhi@maids.cc",
+          "lor.doukmaji@maids.cc",
+          "marwa.nouman@maids.cc"
+        ]
+      }
+    ],
+    "ticket_types": [
+      {
+        "name": "Call client",
+        "code": "Call_client",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Maid Liaison Request",
+        "code": "Maid_Liaison_Request",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Maid related question",
+        "code": "Maid's_Related_Concerns",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Trainer Offering",
+        "code": "trainer_offering",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Undetermined",
+        "code": "default__c",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 2880,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      }
+    ]
+  },
   "Customer Success Advisors Manager": {
     "code": "Mediator_1703667418054",
     "head_email": "lilas.ismail@maids.cc",
@@ -26287,7 +26458,17 @@
   "Switch to MV": {
     "code": "Confirmed_switching_-_Do_not_transfer_1702025111569",
     "head_email": "nael.haidar@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "CC-Long-Term-L2",
+        "code": null,
+        "supervisors": [],
+        "agents": [
+          "katia.daher@maids.cc",
+          "wissam.malaeb@maids.cc"
+        ]
+      }
+    ],
     "ticket_types": [
       {
         "name": "Amend Client's Payment status \\ type \\ calculated VAT",
@@ -27500,163 +27681,6 @@
           "urgent": {
             "assign_min": 30,
             "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Undetermined",
-        "code": "default__c",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      }
-    ]
-  },
-  "Trainers": {
-    "code": null,
-    "head_email": "nael.haidar@maids.cc",
-    "teams": [],
-    "ticket_types": [
-      {
-        "name": "Call client",
-        "code": "Call_client",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Maid Liaison Request",
-        "code": "Maid_Liaison_Request",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Maid related question",
-        "code": "Maid's_Related_Concerns",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Trainer Offering",
-        "code": "trainer_offering",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           }
