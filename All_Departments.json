@@ -1054,7 +1054,16 @@
   "accommodation supervisor": {
     "code": "accommodation_supervisor_1666694339502",
     "head_email": "mona.dennawi@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "accommodation supervisor",
+        "code": null,
+        "supervisors": [
+          "mona.dennawi@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Complaint About Accommodation",
@@ -1841,7 +1850,7 @@
   },
   "AE_Recruiter": {
     "code": "AE_Recruiter_1769612055178",
-    "head_email": "peter.gemayel@maids.cc",
+    "head_email": "eliana.abouassaly@maids.cc",
     "teams": [],
     "ticket_types": [
       {
