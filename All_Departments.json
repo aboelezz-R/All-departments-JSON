@@ -14015,7 +14015,20 @@
   "MMR": {
     "code": "MMR__1776678778166",
     "head_email": "georgio@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "MaidMatch (Maid Side)",
+        "code": null,
+        "supervisors": [
+          "shaza.iskandar@maids.cc"
+        ],
+        "agents": [
+          "ayman.chukri@maids.cc",
+          "jana.waked@maids.cc",
+          "ahmad.termos@maids.cc"
+        ]
+      }
+    ],
     "ticket_types": [
       {
         "name": "Amend Client's Payment status \\ type \\ calculated VAT",
@@ -14372,66 +14385,6 @@
           "urgent": {
             "assign_min": 30,
             "resolve_min": 4320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Taxi canceled",
-        "code": "careem_driver_canceled",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Undetermined",
-        "code": "default__c",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           }
@@ -26836,8 +26789,17 @@
   },
   "The MOP - CC Client": {
     "code": "The_MOP_-_CC_1744008246082",
-    "head_email": "nael.haidar@maids.cc",
-    "teams": [],
+    "head_email": "joey.rizk@maids.cc",
+    "teams": [
+      {
+        "team": "The MOP - CC Client",
+        "code": null,
+        "supervisors": [
+          "ahmad.kraiem@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Bad Google Review",
