@@ -8330,25 +8330,25 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 480,
+            "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 480,
+            "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 480,
+            "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 480,
+            "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           }
@@ -8360,27 +8360,27 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 480,
+            "resolve_min": 60,
             "max_hold_min": 240,
-            "next_update_min": 120
+            "next_update_min": 300
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 480,
+            "resolve_min": 60,
             "max_hold_min": 240,
-            "next_update_min": 120
+            "next_update_min": 300
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 480,
+            "resolve_min": 60,
             "max_hold_min": 240,
-            "next_update_min": 120
+            "next_update_min": 300
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 480,
+            "resolve_min": 60,
             "max_hold_min": 240,
-            "next_update_min": 120
+            "next_update_min": 300
           }
         }
       },
@@ -8390,26 +8390,26 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
+            "resolve_min": 30,
+            "max_hold_min": 60,
             "next_update_min": 120
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
+            "resolve_min": 30,
+            "max_hold_min": 60,
             "next_update_min": 120
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
+            "resolve_min": 30,
+            "max_hold_min": 60,
             "next_update_min": 120
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
+            "resolve_min": 30,
+            "max_hold_min": 60,
             "next_update_min": 120
           }
         }
@@ -8420,27 +8420,27 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 30,
+            "max_hold_min": 60,
+            "next_update_min": 60
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 30,
+            "max_hold_min": 60,
+            "next_update_min": 60
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 30,
+            "max_hold_min": 60,
+            "next_update_min": 60
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 30,
+            "max_hold_min": 60,
+            "next_update_min": 60
           }
         }
       },
