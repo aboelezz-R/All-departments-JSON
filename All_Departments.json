@@ -8314,38 +8314,128 @@
         }
       },
       {
-        "name": "Trainer Offering",
-        "code": "trainer_offering",
+        "name": "Mediator Offering",
+        "code": null,
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 2880,
+            "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 2880,
+            "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 2880,
+            "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 2880,
+            "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           }
         }
       },
       {
-        "name": "Undetermined",
-        "code": "default__c",
+        "name": "Refund Request",
+        "code": null,
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "RTJ attitude",
+        "code": null,
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "SQ - Mediator not answering",
+        "code": null,
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Trainer Offering",
+        "code": "trainer_offering",
         "sla": {
           "low": {
             "assign_min": 30,
