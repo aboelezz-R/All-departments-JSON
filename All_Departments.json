@@ -1851,7 +1851,16 @@
   "AE_Recruiter": {
     "code": "AE_Recruiter_1769612055178",
     "head_email": "eliana.abouassaly@maids.cc",
-    "teams": [],
+    "teams": [
+      {
+        "team": "AE_Recruiter",
+        "code": null,
+        "supervisors": [
+          "eliana.abouassaly@maids.cc"
+        ],
+        "agents": []
+      }
+    ],
     "ticket_types": [
       {
         "name": "Maids Police Case / Inquiry – Medium Priority",
