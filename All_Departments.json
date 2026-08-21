@@ -26815,12 +26815,6 @@
         "name": "Bad Google Review",
         "code": "Bad_Google_Review",
         "sla": {
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 2880,
-            "next_update_min": 1440
-          },
           "high": {
             "assign_min": 30,
             "resolve_min": 7200,
@@ -26829,8 +26823,8 @@
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 2880,
+            "resolve_min": 4320,
+            "max_hold_min": 1440,
             "next_update_min": 1440
           }
         }
@@ -26863,29 +26857,17 @@
         "name": "Client Exploring Partners",
         "code": "Client_Exploring_Partners",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
           "high": {
             "assign_min": 30,
-            "resolve_min": 4320,
+            "resolve_min": 2880,
             "max_hold_min": 240,
-            "next_update_min": 120
+            "next_update_min": 240
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 4320,
+            "resolve_min": 1440,
             "max_hold_min": 240,
-            "next_update_min": 120
+            "next_update_min": 240
           }
         }
       },
@@ -26893,23 +26875,11 @@
         "name": "Complaint from Facebook Group",
         "code": "complaint_from_facebook_group",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
           "high": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 1440,
+            "max_hold_min": 300,
+            "next_update_min": 300
           },
           "urgent": {
             "assign_min": 30,
