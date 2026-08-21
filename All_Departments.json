@@ -24076,8 +24076,7 @@
           "hussein.sheayto@maids.cc"
         ],
         "agents": [
-          "mariana.elmasry@maids.cc",
-          "racelle.gharzeddine@maids.cc"
+          "leen.jaafari@maids.cc"
         ]
       },
       {
@@ -26883,7 +26882,7 @@
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 480,
+            "resolve_min": 720,
             "max_hold_min": 240,
             "next_update_min": 120
           }
