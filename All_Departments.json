@@ -26815,29 +26815,23 @@
         "name": "Bad Google Review",
         "code": "Bad_Google_Review",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 7200,
+            "max_hold_min": 2880,
+            "next_update_min": 1440
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 7200,
+            "max_hold_min": 2880,
+            "next_update_min": 1440
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 7200,
+            "max_hold_min": 2880,
+            "next_update_min": 1440
           }
         }
       },
@@ -26845,29 +26839,23 @@
         "name": "Call client",
         "code": "Call_client",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
+            "resolve_min": 300,
+            "max_hold_min": 180,
             "next_update_min": 120
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 180,
+            "max_hold_min": 180,
+            "next_update_min": 60
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 120,
+            "max_hold_min": 120,
+            "next_update_min": 60
           }
         }
       },
@@ -27024,36 +27012,6 @@
       {
         "name": "Complaint Received to Manager’s Phone",
         "code": null,
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Maid related question",
-        "code": "Maid's_Related_Concerns",
         "sla": {
           "low": {
             "assign_min": 30,
