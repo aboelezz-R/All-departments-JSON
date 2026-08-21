@@ -27057,25 +27057,25 @@
         "sla": {
           "low": {
             "assign_min": 30,
-            "resolve_min": 2880,
+            "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 2880,
+            "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 2880,
+            "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 2880,
+            "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           }
