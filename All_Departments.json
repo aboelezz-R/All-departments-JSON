@@ -19977,25 +19977,25 @@
         "code": "Ban_Active_Visa_Cancellation",
         "sla": {
           "low": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 7200,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 7200,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 7200,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "urgent": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 7200,
             "max_hold_min": 240,
             "next_update_min": 120
@@ -20007,25 +20007,25 @@
         "code": "Immigration_Inquiries",
         "sla": {
           "low": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 14400,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 14400,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 14400,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "urgent": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 14400,
             "max_hold_min": 240,
             "next_update_min": 120
@@ -20037,25 +20037,25 @@
         "code": "PRO's_Responsibilities",
         "sla": {
           "low": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 14400,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 14400,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 14400,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "urgent": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 14400,
             "max_hold_min": 240,
             "next_update_min": 120
@@ -20067,25 +20067,25 @@
         "code": "default__c",
         "sla": {
           "low": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "urgent": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
@@ -20097,25 +20097,25 @@
         "code": "Visa_Inquiry",
         "sla": {
           "low": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 10080,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 10080,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 10080,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "urgent": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 10080,
             "max_hold_min": 240,
             "next_update_min": 120
