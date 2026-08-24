@@ -7516,722 +7516,6 @@
       }
     ]
   },
-  "Customer Success Advisor": {
-    "code": null,
-    "head_email": "lilas.ismail@maids.cc",
-    "teams": [
-      {
-        "team": "Customer Success Advisor5 - Sally Hussien",
-        "code": "Mediator5_1777278435914",
-        "supervisors": [
-          "sally.hussien@maids.cc"
-        ],
-        "agents": []
-      },
-      {
-        "team": "Customer Success Advisor2 - Marwa Nouman",
-        "code": "Mediator2_1777278244375",
-        "supervisors": [
-          "marwa.nouman@maids.cc"
-        ],
-        "agents": []
-      },
-      {
-        "team": "Customer Success Advisor1 - Aya zoughaibe",
-        "code": "Mediator1_1777219534390",
-        "supervisors": [
-          "aya.zoughaibe@maids.cc"
-        ],
-        "agents": []
-      },
-      {
-        "team": "Customer Success Advisor4 - Lor Doukmaji",
-        "code": "Mediator4_1777278388312",
-        "supervisors": [
-          "lor.doukmaji@maids.cc"
-        ],
-        "agents": []
-      },
-      {
-        "team": "Customer Success Advisor6 - Zeinab Zaineh",
-        "code": "Mediator6_1777278512147",
-        "supervisors": [
-          "zeinab.zaineh@maids.cc"
-        ],
-        "agents": []
-      },
-      {
-        "team": "Customer Success Advisor3 - Merry Mallouhi",
-        "code": "Mediator3_1777278338127",
-        "supervisors": [
-          "merry.mallouhi@maids.cc"
-        ],
-        "agents": []
-      }
-    ],
-    "ticket_types": [
-      {
-        "name": "AE Replacement",
-        "code": "ae_replacement",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Amend Client's Payment status \\ type \\ calculated VAT",
-        "code": "Amend_Client's_Payment_status_\\_type_\\_calculated_VAT",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Bot-to-Bot Messaging",
-        "code": "Bot-to-Bot_Messaging",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Call client",
-        "code": "Call_client",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "CC to MV Client Replaced this Maid",
-        "code": "CC_to_MV_Client_Replaced_this_Maid",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Client MTs",
-        "code": "Client_MTs",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Cook Offering",
-        "code": "cook_offering",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Finalizing Client Shortlis",
-        "code": "Finalizing_Client_Shortlis",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Follow up for medical appointment",
-        "code": "follow_up_for_medical_appointment",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Listener Session",
-        "code": "Listener_Session",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Luggage Checkup",
-        "code": "luggage_checkup",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Maid Complaint about Client",
-        "code": "maid_complaint_about_client",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Maid does not want to work with client",
-        "code": "Refused_To_Work__c",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Maid is sick or injured",
-        "code": "Work_Injury_Sickness__c",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Maid Liaison Request",
-        "code": "Maid_Liaison_Request",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Maid Refused To Join",
-        "code": "maid_refused_to_join",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Maid related question",
-        "code": "Maid's_Related_Concerns",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Maid's quality",
-        "code": "Maid_is_not_doing_her_job_correctly",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Mediator Offering",
-        "code": "mediator_offering",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Service Not Needed Anymore",
-        "code": "Service_Not_ Needed_Anymore",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Unassigned client",
-        "code": "unassigned_client",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Undetermined",
-        "code": "default__c",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      }
-    ]
-  },
   "Customer Success Advisors": {
     "code": null,
     "head_email": "lilas.ismail@maids.cc",
@@ -26835,15 +26119,15 @@
         "sla": {
           "high": {
             "assign_min": 30,
-            "resolve_min": 7200,
-            "max_hold_min": 2880,
-            "next_update_min": 1440
+            "resolve_min": 4320,
+            "max_hold_min": 1440,
+            "next_update_min": 480
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 4320,
-            "max_hold_min": 1440,
-            "next_update_min": 1440
+            "resolve_min": 720,
+            "max_hold_min": 360,
+            "next_update_min": 240
           }
         }
       },
@@ -26911,23 +26195,17 @@
         "name": "Complaint from Instagram",
         "code": "complaint_from_instagram",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 2880,
+            "max_hold_min": 600,
+            "next_update_min": 360
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 1440,
+            "max_hold_min": 480,
+            "next_update_min": 360
           },
           "urgent": {
             "assign_min": 30,
@@ -26941,12 +26219,6 @@
         "name": "Complaint from Reddit Group",
         "code": "complaint_from_reddit_group",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
           "medium": {
             "assign_min": 30,
             "resolve_min": 480,
@@ -26971,23 +26243,17 @@
         "name": "Complaint from WhatsApp group",
         "code": "complaint_from_whatsapp_group",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 2880,
+            "max_hold_min": 600,
+            "next_update_min": 480
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 1440,
+            "max_hold_min": 480,
+            "next_update_min": 360
           },
           "urgent": {
             "assign_min": 30,
@@ -27031,29 +26297,23 @@
         "name": "Meta Ads complaint",
         "code": "Meta_Ads_complaint",
         "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
           "medium": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 2880,
+            "max_hold_min": 480,
+            "next_update_min": 600
           },
           "high": {
             "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "resolve_min": 1440,
+            "max_hold_min": 360,
+            "next_update_min": 360
           },
           "urgent": {
             "assign_min": 30,
-            "resolve_min": 480,
+            "resolve_min": 720,
             "max_hold_min": 240,
-            "next_update_min": 120
+            "next_update_min": 180
           }
         }
       }
