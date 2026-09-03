@@ -12718,6 +12718,36 @@
             "next_update_min": 120
           }
         }
+      },
+      {
+        "name": "Recruitment Medical Screening",
+        "code": null,
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
       }
     ]
   },
@@ -12731,7 +12761,6 @@
         "supervisors": [],
         "agents": [
           "majd.aldebs@maids.cc",
-          "alaa.alfaili@maids.cc",
           "oukba.alkhateeb@maids.cc",
           "ahmad.saiah@maids.cc"
         ]
@@ -12893,19 +12922,19 @@
         "code": "Work_Injury_Sickness__c",
         "sla": {
           "low": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
-            "assign_min": 30,
+            "assign_min": 50,
             "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
-            "assign_min": 30,
+            "assign_min": 40,
             "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
@@ -12923,25 +12952,25 @@
         "code": "maid_pretended_to_be_sick",
         "sla": {
           "low": {
-            "assign_min": 30,
+            "assign_min": 50,
             "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
-            "assign_min": 30,
+            "assign_min": 50,
             "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
-            "assign_min": 30,
+            "assign_min": 50,
             "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "urgent": {
-            "assign_min": 30,
+            "assign_min": 50,
             "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
@@ -12983,19 +13012,19 @@
         "code": "default__c",
         "sla": {
           "low": {
-            "assign_min": 30,
+            "assign_min": 60,
             "resolve_min": 1440,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "medium": {
-            "assign_min": 30,
+            "assign_min": 50,
             "resolve_min": 1440,
             "max_hold_min": 240,
             "next_update_min": 120
           },
           "high": {
-            "assign_min": 30,
+            "assign_min": 40,
             "resolve_min": 1440,
             "max_hold_min": 240,
             "next_update_min": 120
@@ -19258,6 +19287,36 @@
       }
     ],
     "ticket_types": [
+      {
+        "name": "AEDA Attestation",
+        "code": "AEDA_Attestation",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
       {
         "name": "Ban/Active Visa Cancellation",
         "code": "Ban_Active_Visa_Cancellation",
@@ -26321,6 +26380,890 @@
       }
     ]
   },
+  "The MOP - CC Maid": {
+    "code": null,
+    "head_email": "anthony.kosseifi@maids.cc",
+    "teams": [
+      {
+        "team": "The MOP - CC Maid",
+        "code": null,
+        "supervisors": [],
+        "agents": []
+      }
+    ],
+    "ticket_types": [
+      {
+        "name": "Bad Google Review",
+        "code": "Bad_Google_Review",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Bad Trust Pilot Review",
+        "code": "Bad_Trust_Pilot_Review",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Client wants free replacement when current maid goes on vacation",
+        "code": "Client_Wants_Free_Replacement_When_Current_Maid_Goes_On_Vacation__c",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Complaint from Facebook Group",
+        "code": "complaint_from_facebook_group",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Complaint from Instagram",
+        "code": "complaint_from_instagram",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Complaint from WhatsApp group",
+        "code": "complaint_from_whatsapp_group",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Complaint Received to Manager's Phone",
+        "code": "Complaint_Received_to_Manager's_Phone",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Correction for Wrong No-Show Status",
+        "code": "correct_wrong_no_show",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Document required",
+        "code": "Document-required",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "EID and fingerprinting issues",
+        "code": "EID_and_fingerprinting_issues",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Follow up for medical appointment",
+        "code": "follow_up_for_medical_appointment",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "High score live-out",
+        "code": "High_score_live-out",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Intro Call",
+        "code": "Intro_Call",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Maid cash advance",
+        "code": "maid_cash_advance",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Maid does not want to renew with the company",
+        "code": "Maid_does_not_want_to_renew_with_the_company__c",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Maid is sick or injured",
+        "code": "Work_Injury_Sickness__c",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Maid related question",
+        "code": "Maid's_Related_Concerns",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Maid Wants To Resign",
+        "code": "Maid_Wants_To_Resign__c",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Maid was selected wrongly by hosts/prospect",
+        "code": "Maid_was_selected_wrongly",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Maid's termination",
+        "code": "Maid's_termination",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Meta Ads complaint",
+        "code": "Meta_Ads_complaint",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Missing Salary Inquiry",
+        "code": "Missing_Salary_Inquiry",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "MV Retention",
+        "code": "MV_Retention",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Play Store Complaint",
+        "code": "Play_Store_Complaint",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Undetermined",
+        "code": "default__c",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Unreachable Maid",
+        "code": "Unreachable_Maid",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Unreachable Maid After Vacation",
+        "code": "Unreachable_Maid_After_Vacation",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Vacation Policy",
+        "code": "vacation_policy",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Visa renewal",
+        "code": "Visa-renewal",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      }
+    ]
+  },
   "The MOP - MV": {
     "code": "The_MOP_1730448217795",
     "head_email": "razane.arnaout@maids.cc",
@@ -28020,6 +28963,36 @@
           "urgent": {
             "assign_min": 30,
             "resolve_min": 14400,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Previous MOL Number",
+        "code": "Previous_MOL_Number",
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           }
