@@ -7060,8 +7060,7 @@
         ],
         "agents": [
           "homam.yasmina@maids.cc",
-          "mussab.mandil@maids.cc",
-          "george@maids.cc"
+          "mussab.mandil@maids.cc"
         ]
       }
     ],
@@ -15796,36 +15795,6 @@
         }
       },
       {
-        "name": "Blocked Client Signing A New Contract",
-        "code": "blocked_client_signing_a_new_contract",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 1440,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
         "name": "Call client",
         "code": "Call_client",
         "sla": {
@@ -15856,61 +15825,31 @@
         }
       },
       {
-        "name": "Cameeroonian passport renewal",
-        "code": null,
-        "sla": {
-          "low": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
         "name": "CC to MV Client Replaced this Maid",
         "code": "CC_to_MV_Client_Replaced_this_Maid",
         "sla": {
           "low": {
-            "assign_min": 120,
-            "resolve_min": 50400,
-            "max_hold_min": 1440,
-            "next_update_min": 300
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 8640,
+            "next_update_min": 120
           },
           "medium": {
-            "assign_min": 120,
-            "resolve_min": 50400,
-            "max_hold_min": 1440,
-            "next_update_min": 300
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 8640,
+            "next_update_min": 120
           },
           "high": {
-            "assign_min": 120,
-            "resolve_min": 50400,
-            "max_hold_min": 1440,
-            "next_update_min": 300
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 8640,
+            "next_update_min": 120
           },
           "urgent": {
-            "assign_min": 60,
-            "resolve_min": 43200,
-            "max_hold_min": 1440,
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 8640,
             "next_update_min": 120
           }
         }
@@ -16186,62 +16125,32 @@
         }
       },
       {
-        "name": "Ethiopian Passport Renewal",
-        "code": "ethiopian_passport_renewal",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 43200,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 43200,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 43200,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 43200,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
         "name": "Follow up for medical appointment",
         "code": "follow_up_for_medical_appointment",
         "sla": {
           "low": {
             "assign_min": 30,
             "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "max_hold_min": 360,
+            "next_update_min": 180
           },
           "medium": {
             "assign_min": 30,
             "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "max_hold_min": 360,
+            "next_update_min": 180
           },
           "high": {
             "assign_min": 30,
             "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "max_hold_min": 360,
+            "next_update_min": 180
           },
           "urgent": {
             "assign_min": 30,
             "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
+            "max_hold_min": 360,
+            "next_update_min": 180
           }
         }
       },
@@ -16330,54 +16239,6 @@
         }
       },
       {
-        "name": "Indian passport renewal",
-        "code": "Indian_passport_renewal",
-        "sla": {
-          "low": {
-            "assign_min": 120,
-            "resolve_min": 20160,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 120,
-            "resolve_min": 20160,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Indonesian passport renewal",
-        "code": "Indonesian_passport_renewal",
-        "sla": {
-          "low": {
-            "assign_min": 360,
-            "resolve_min": 76320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 360,
-            "resolve_min": 76320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 360,
-            "resolve_min": 76320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 360,
-            "resolve_min": 76320,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
         "name": "Intro Call",
         "code": "Intro_Call",
         "sla": {
@@ -16408,24 +16269,6 @@
         }
       },
       {
-        "name": "Kenyan passport renewal",
-        "code": "Kenyan_passport_renewal",
-        "sla": {
-          "low": {
-            "assign_min": 120,
-            "resolve_min": 20160,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 120,
-            "resolve_min": 20160,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
         "name": "Last MV Salary Disputes",
         "code": "MV_Salary_Dispute",
         "sla": {
@@ -16450,36 +16293,6 @@
           "urgent": {
             "assign_min": 30,
             "resolve_min": 14400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Logistics",
-        "code": "logistics",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 2880,
             "max_hold_min": 240,
             "next_update_min": 120
           }
@@ -16846,36 +16659,6 @@
         }
       },
       {
-        "name": "Nepali passport renewal",
-        "code": "Nepali_passport_renewal",
-        "sla": {
-          "low": {
-            "assign_min": 120,
-            "resolve_min": 50400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 120,
-            "resolve_min": 50400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 120,
-            "resolve_min": 50400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 120,
-            "resolve_min": 50400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
         "name": "New GCC Flow",
         "code": "New_GCC_Flow",
         "sla": {
@@ -16950,36 +16733,6 @@
             "resolve_min": 21600,
             "max_hold_min": 480,
             "next_update_min": 2880
-          }
-        }
-      },
-      {
-        "name": "Pakistani passport renewal",
-        "code": "Pakistani_passport_renewal",
-        "sla": {
-          "low": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
-            "next_update_min": 120
           }
         }
       },
@@ -17212,66 +16965,6 @@
         }
       },
       {
-        "name": "Sri Lankan passport renewal",
-        "code": "Sri_Lankan_passport_renewal",
-        "sla": {
-          "low": {
-            "assign_min": 240,
-            "resolve_min": 50400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 240,
-            "resolve_min": 50400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 240,
-            "resolve_min": 50400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 240,
-            "resolve_min": 50400,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Tawjeeh",
-        "code": "Tawjeeh",
-        "sla": {
-          "low": {
-            "assign_min": 120,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "medium": {
-            "assign_min": 120,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 120,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 120,
-            "resolve_min": 10080,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
         "name": "Taxi canceled",
         "code": "careem_driver_canceled",
         "sla": {
@@ -17297,24 +16990,6 @@
             "assign_min": 30,
             "resolve_min": 1440,
             "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Ugandan passport renewal",
-        "code": "Ugandan_passport_renewal",
-        "sla": {
-          "low": {
-            "assign_min": 120,
-            "resolve_min": 20160,
-            "max_hold_min": 8,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 120,
-            "resolve_min": 20160,
-            "max_hold_min": 8,
             "next_update_min": 120
           }
         }
@@ -17519,30 +17194,6 @@
             "assign_min": 30,
             "resolve_min": 480,
             "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "Zimbabwean passport renewal",
-        "code": "Zimbabwean_passport_renewal",
-        "sla": {
-          "low": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          },
-          "high": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
-            "next_update_min": 120
-          },
-          "urgent": {
-            "assign_min": 360,
-            "resolve_min": 50400,
-            "max_hold_min": 480,
             "next_update_min": 120
           }
         }
