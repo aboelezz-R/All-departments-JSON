@@ -7050,12 +7050,13 @@
   },
   "Collections": {
     "code": "COMP_COLLECTIONS_01",
-    "head_email": "anthony.fares@maids.cc",
+    "head_email": "anthony.kosseifi@maids.cc",
     "teams": [
       {
         "team": "Collections",
         "code": null,
         "supervisors": [
+          "anthony.fares@maids.cc",
           "anthony.fares@maids.cc"
         ],
         "agents": [
@@ -7066,8 +7067,68 @@
     ],
     "ticket_types": [
       {
+        "name": "Add VAT on salary",
+        "code": null,
+        "sla": {
+          "low": {
+            "assign_min": 14400,
+            "resolve_min": 14400,
+            "max_hold_min": 14400,
+            "next_update_min": 14400
+          },
+          "medium": {
+            "assign_min": 14400,
+            "resolve_min": 14400,
+            "max_hold_min": 14400,
+            "next_update_min": 14400
+          },
+          "high": {
+            "assign_min": 14400,
+            "resolve_min": 14400,
+            "max_hold_min": 14400,
+            "next_update_min": 14400
+          },
+          "urgent": {
+            "assign_min": 14400,
+            "resolve_min": 14400,
+            "max_hold_min": 14400,
+            "next_update_min": 14400
+          }
+        }
+      },
+      {
         "name": "Amend Client's Payment status \\ type \\ calculated VAT",
         "code": "Amend_Client's_Payment_status_\\_type_\\_calculated_VAT",
+        "sla": {
+          "low": {
+            "assign_min": 14400,
+            "resolve_min": 14400,
+            "max_hold_min": 14400,
+            "next_update_min": 14400
+          },
+          "medium": {
+            "assign_min": 14400,
+            "resolve_min": 14400,
+            "max_hold_min": 14400,
+            "next_update_min": 14400
+          },
+          "high": {
+            "assign_min": 14400,
+            "resolve_min": 14400,
+            "max_hold_min": 14400,
+            "next_update_min": 14400
+          },
+          "urgent": {
+            "assign_min": 14400,
+            "resolve_min": 14400,
+            "max_hold_min": 14400,
+            "next_update_min": 14400
+          }
+        }
+      },
+      {
+        "name": "Change CPT",
+        "code": null,
         "sla": {
           "low": {
             "assign_min": 14400,
@@ -7276,66 +7337,6 @@
         }
       },
       {
-        "name": "Money Disputes",
-        "code": "Payroll_Disputes__c",
-        "sla": {
-          "low": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          },
-          "medium": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          },
-          "high": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          },
-          "urgent": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          }
-        }
-      },
-      {
-        "name": "MV Retention",
-        "code": "MV_Retention",
-        "sla": {
-          "low": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          },
-          "medium": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          },
-          "high": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          },
-          "urgent": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          }
-        }
-      },
-      {
         "name": "MV Split Payment Experiment",
         "code": "mv_split_payment_experiment",
         "sla": {
@@ -7428,36 +7429,6 @@
       {
         "name": "Visa Only Package-Visa Only Package New Client Reached Us",
         "code": "MV-MV_New_Client_Reached_Us",
-        "sla": {
-          "low": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          },
-          "medium": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          },
-          "high": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          },
-          "urgent": {
-            "assign_min": 14400,
-            "resolve_min": 14400,
-            "max_hold_min": 14400,
-            "next_update_min": 14400
-          }
-        }
-      },
-      {
-        "name": "Visa renewal",
-        "code": "Visa-renewal",
         "sla": {
           "low": {
             "assign_min": 14400,
@@ -8367,13 +8338,14 @@
   },
   "DuPay complaints": {
     "code": "_du_Pay_complaints_1780405420489",
-    "head_email": "anthony.fares@maids.cc",
+    "head_email": "anthony.kosseifi@maids.cc",
     "teams": [
       {
         "team": "DuPay complaints",
         "code": null,
         "supervisors": [
-          "anthony.fares@maids.cc"
+          "anthony.fares@maids.cc",
+          "ehab@maids.cc"
         ],
         "agents": [
           "mussab.mandil@maids.cc"
@@ -15649,9 +15621,9 @@
         ],
         "agents": [
           "lea.breidy@maids.cc",
-          "koussay,shehade@maids.cc",
           "jana.ayash@maids.cc",
-          "wissam.alaridi@maids.cc"
+          "wissam.alaridi@maids.cc",
+          "koussay.shehade@maids.cc"
         ]
       },
       {
@@ -18394,14 +18366,15 @@
   },
   "Payroll": {
     "code": "Payroll_&_Pnls_manager_1666437528196",
-    "head_email": "anthony.fares@maids.cc",
+    "head_email": "anthony.kosseifi@maids.cc",
     "teams": [
       {
         "team": "Payroll",
         "code": null,
         "supervisors": [
           "george@maids.cc",
-          "anthony.fares@maids.cc"
+          "anthony.fares@maids.cc",
+          "marwan.ghanem@maids.cc"
         ],
         "agents": [
           "mussab.mandil@maids.cc",
@@ -22795,7 +22768,7 @@
   },
   "Refunds": {
     "code": "Refunds_1773157619032",
-    "head_email": "anthony.fares@maids.cc",
+    "head_email": "anthony.kosseifi@maids.cc",
     "teams": [
       {
         "team": "Refunds",
@@ -27424,7 +27397,6 @@
         ],
         "agents": [
           "vivian.calub@maids.cc",
-          "joanne.valles@maids.cc",
           "joanne.valles@maids.cc",
           "cynthia.alivista@maids.cc",
           "shene.avelino@maids.cc",
