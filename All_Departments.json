@@ -4552,7 +4552,7 @@
   },
   "CC Long-term": {
     "code": null,
-    "head_email": null,
+    "head_email": "manouella.helou@maids.cc",
     "teams": [
       {
         "team": "CC Long-term L2",
@@ -4573,6 +4573,18 @@
         "code": null,
         "sla": {
           "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Service not needed anymore",
+        "code": null,
+        "sla": {
+          "high": {
             "assign_min": 30,
             "resolve_min": 480,
             "max_hold_min": 240,
@@ -9032,7 +9044,7 @@
   },
   "Frozen Clients - Live In": {
     "code": "Frozen_Clients_-_Live_in_1775557066652",
-    "head_email": "manaleham@maids.cc",
+    "head_email": "manouella.helou@maids.cc",
     "teams": [
       {
         "team": "Frozen Clients Live In",
@@ -21598,7 +21610,7 @@
   },
   "RB SUPs": {
     "code": null,
-    "head_email": "manaleham@maids.cc",
+    "head_email": "manouella.helou@maids.cc",
     "teams": [
       {
         "team": "RB SUP1",
@@ -23011,7 +23023,7 @@
   },
   "Relationship Builders - L0": {
     "code": "Rb_L2_Callers_1778069513055",
-    "head_email": "manaleham@maids.cc",
+    "head_email": "manouella.helou@maids.cc",
     "teams": [
       {
         "team": "Group1",
