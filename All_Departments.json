@@ -4550,6 +4550,38 @@
       }
     ]
   },
+  "CC Long-term": {
+    "code": null,
+    "head_email": null,
+    "teams": [
+      {
+        "team": "CC Long-term L2",
+        "code": null,
+        "supervisors": [
+          "khallouf.yasmeen@maids.cc",
+          "sandraheddo@maids.cc"
+        ],
+        "agents": [
+          "katia.daher@maids.cc",
+          "alifares@maids.cc"
+        ]
+      }
+    ],
+    "ticket_types": [
+      {
+        "name": "Legal Threat",
+        "code": null,
+        "sla": {
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      }
+    ]
+  },
   "CC Resolvers": {
     "code": null,
     "head_email": "youssef.shalakamy@maids.cc",
@@ -10203,6 +10235,80 @@
           "urgent": {
             "assign_min": 30,
             "resolve_min": 1440,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      }
+    ]
+  },
+  "Intro Calls / Indian": {
+    "code": null,
+    "head_email": "diptankar.bhattacharya@maids.cc",
+    "teams": [
+      {
+        "team": "Intro Calls",
+        "code": null,
+        "supervisors": [
+          "bhattacharya.diptankar@maids.cc"
+        ],
+        "agents": [
+          "joseph.victor@maids.cc",
+          "ruby.parveen@maids.cc"
+        ]
+      }
+    ],
+    "ticket_types": [
+      {
+        "name": "Intro Calls",
+        "code": null,
+        "sla": {
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      }
+    ]
+  },
+  "Intro Calls/ Indonesian & Sri Lankan": {
+    "code": null,
+    "head_email": "diptankar.bhattacharya@maids.cc",
+    "teams": [
+      {
+        "team": "Intro Calls",
+        "code": null,
+        "supervisors": [
+          "bhattacharya.diptankar@maids.cc"
+        ],
+        "agents": [
+          "regina.putri@maids.cc",
+          "joseph.victor@maids.cc"
+        ]
+      }
+    ],
+    "ticket_types": [
+      {
+        "name": "Intro Calls",
+        "code": null,
+        "sla": {
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      },
+      {
+        "name": "Intro Calls",
+        "code": null,
+        "sla": {
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
             "max_hold_min": 240,
             "next_update_min": 120
           }
@@ -22910,14 +23016,12 @@
       {
         "team": "Group1",
         "code": null,
-        "supervisors": [
-          "abdelrahman.mohamed@maids.cc"
-        ],
+        "supervisors": [],
         "agents": [
-          "richard.kamel@maids.cc",
           "ahmed.ansari@maids.cc",
           "selena.abisaad@maids.cc",
-          "mariam.alatawna@maids.cc"
+          "mariam.alatawna@maids.cc",
+          "issa.nassour@maids.cc"
         ]
       }
     ],
@@ -23059,11 +23163,12 @@
         "code": "RB5_1698090703125",
         "supervisors": [
           "lea.ballout@maids.cc",
-          "hussein.sheayto@maids.cc"
+          "hussein.sheayto@maids.cc",
+          "abdelrahman.mohamed@maids.cc"
         ],
         "agents": [
           "leen.jaafari@maids.cc",
-          "elie.abutakka@maids.cc"
+          "mohamad.huseinovitch@maids.cc"
         ]
       },
       {
@@ -23071,7 +23176,8 @@
         "code": "RB4_1698090663392",
         "supervisors": [
           "hussein.sheayto@maids.cc",
-          "lea.ballout@maids.cc"
+          "lea.ballout@maids.cc",
+          "abdelrahman.mohamed@maids.cc"
         ],
         "agents": [
           "daniel.abisaab@maids.cc",
@@ -23083,11 +23189,12 @@
         "code": "RB7_1707068119513",
         "supervisors": [
           "niveen.bouhassan@maids.cc",
-          "rima.ali@maids.cc"
+          "rima.ali@maids.cc",
+          "abdelrahman.mohamed@maids.cc"
         ],
         "agents": [
-          "majd.wazzan@maids.cc",
-          "amal.wagih@maids.cc"
+          "amal.wagih@maids.cc",
+          "lea.noureddine@maids.cc"
         ]
       },
       {
@@ -23095,7 +23202,8 @@
         "code": "RB6_1707068111059",
         "supervisors": [
           "rima.ali@maids.cc",
-          "niveen.bouhassan@maids.cc"
+          "niveen.bouhassan@maids.cc",
+          "abdelrahman.mohamed@maids.cc"
         ],
         "agents": [
           "adam.kayalie@maids.cc",
