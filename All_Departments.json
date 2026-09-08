@@ -26764,6 +26764,59 @@
       }
     ]
   },
+  "Trainers": {
+    "code": null,
+    "head_email": "lilas.ismail@maids.cc",
+    "teams": [
+      {
+        "team": "trainers",
+        "code": null,
+        "supervisors": [],
+        "agents": [
+          "arlen.rayco@maids.cc",
+          "alhakam.khouiss@maids.cc",
+          "carla.estano@maids.cc",
+          "grace.njoroge@maids.cc",
+          "samrawit.zeleke@maids.cc",
+          "senait.tegegne@maids.cc",
+          "werkaferawu.hailu@maids.cc",
+          "nijad.mounjed@maids.cc"
+        ]
+      }
+    ],
+    "ticket_types": [
+      {
+        "name": "Trainer offering",
+        "code": null,
+        "sla": {
+          "low": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "medium": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "high": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          },
+          "urgent": {
+            "assign_min": 30,
+            "resolve_min": 480,
+            "max_hold_min": 240,
+            "next_update_min": 120
+          }
+        }
+      }
+    ]
+  },
   "Transportation": {
     "code": null,
     "head_email": "youssef.nader@maids.cc",
