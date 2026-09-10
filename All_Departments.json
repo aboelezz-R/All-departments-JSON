@@ -12854,7 +12854,9 @@
       {
         "team": "Doctors Team",
         "code": null,
-        "supervisors": [],
+        "supervisors": [
+          "fatima.sidahmed@maids.cc"
+        ],
         "agents": [
           "majd.aldebs@maids.cc",
           "oukba.alkhateeb@maids.cc",
