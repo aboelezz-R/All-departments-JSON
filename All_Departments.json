@@ -23072,18 +23072,6 @@
         }
       },
       {
-        "name": "Possible cancellations",
-        "code": null,
-        "sla": {
-          "urgent": {
-            "assign_min": 30,
-            "resolve_min": 480,
-            "max_hold_min": 240,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
         "name": "Pre-confirmation Dispute",
         "code": "Pre-confirmation_Dispute",
         "sla": {
@@ -23091,18 +23079,6 @@
             "assign_min": 180,
             "resolve_min": 7200,
             "max_hold_min": 300,
-            "next_update_min": 120
-          }
-        }
-      },
-      {
-        "name": "RB Follow Up",
-        "code": "RB_Follow_Up",
-        "sla": {
-          "low": {
-            "assign_min": 30,
-            "resolve_min": 2880,
-            "max_hold_min": 240,
             "next_update_min": 120
           }
         }
