@@ -1,4 +1,10 @@
 {
+  "__probe__": {
+    "code": null,
+    "head_email": null,
+    "teams": [],
+    "ticket_types": []
+  },
   "Accommodation Manager": {
     "code": "Accommodation_manager_1664961704943",
     "head_email": "jessica@maids.cc",
